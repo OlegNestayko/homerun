@@ -1,8 +1,18 @@
+:root {
+  /* Font */
+  --main-font: 'Roboto', sans-serif;
+  --main-size: 400;
+  --secondary-size: 700;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* body {
-  background-color: blue;
-} */
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: var(--main-font);
+}
