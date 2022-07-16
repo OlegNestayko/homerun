@@ -12,22 +12,24 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
 	<!-- Header section -->
-	<header>
-		<a href="./index.html" class="link">
+	<header class="header wrap">
+		<a href="./index.html" class="logo link">
 			<img src="./img/logo/logo.png" alt="logo" width="124">
 		</a>
-		<ul class="header-list list">
+		<ul class="header-list list wrap">
 			<li class="header-item">
 				<a href="#" class="link">Product</a>
 			</li>
 			<li class="header-item">
-				<a href="#" class="link">Templates <span>new</span></a>
+				<a href="#" class="link">Templates <span class="pink">new</span>
+				</a>
 			</li>
 			<li class="header-item">
 				<a href="#" class="link">Pricing</a>
@@ -39,58 +41,60 @@
 				<a href="#" class="link">Learn</a>
 			</li>
 		</ul>
-		<button type="button" class="header-btn btn">Log in</button>
-		<button type="button" class="header-btn btn">Start free trial</button>
+		<div>
+			<button type="button" class="btn-light btn">Log in</button>
+			<button type="button" class="header-btn btn-accent btn">Start free trial</button>
+		</div>
 	</header>
 
 	<!-- Main section -->
-	<main>
+	<main class="section">
 
 		<!--Hero section  -->
 		<section class="hero">
 			<h1 class="hero-title">Where hiring comes together.</h1>
 			<p class="hero-text">Everything you need to organise your hiring and make a great impression.</p>
-			<form action="#">
-				<input type="text" name="usermail" placeholder="Work email">
-				<button type="button">Start free trial</button>
+			<form action="#" class="hero-start">
+				<input type="text" name="usermail" placeholder="Work email" class="hero-term">
+				<button type="button" class="hero-btn btn-accent">Start free trial</button>
 			</form>
 		</section>
 
 		<!-- Join section -->
-		<section class="join">
-			<h2 class="join-title">Join thousands of teams hiring with Homerun</h2>
-			<ul class="join-list">
-				<li class="join-item">
+		<section>
+			<h2 class="join-title ">Join thousands of teams hiring with Homerun</h2>
+			<ul class="join-list list wrap">
+				<li>
 					<a href="#" class="link">
 						<img src="./img/main/join/tbwa.png" alt="tbwa" width="160">
 					</a>
 				</li>
-				<li class="join-item">
+				<li>
 					<a href="#" class="link">
 						<img src="./img/main/join/tonys.png" alt="tonys" width="160">
 					</a>
 				</li>
-				<li class="join-item">
+				<li>
 					<a href="#" class="link">
 						<img src="./img/main/join/buffer.png" alt="buffer" width="160">
 					</a>
 				</li>
-				<li class="join-item">
+				<li>
 					<a href="#" class="link">
 						<img src="./img/main/join/volks.png" alt="volks" width="160">
 					</a>
 				</li>
-				<li class="join-item">
+				<li>
 					<a href="#" class="link">
 						<img src="./img/main/join/gecko.png" alt="gecko" width="160">
 					</a>
 				</li>
-				<li class="join-item">
+				<li>
 					<a href="#" class="link">
 						<img src="./img/main/join/publicis.png" alt="publicis" width="160">
 					</a>
 				</li>
-				<li class="join-item">
+				<li>
 					<a href="#" class="link">
 						<img src="./img/main/join/tnw.png" alt="tnw" width="160">
 					</a>
@@ -99,7 +103,7 @@
 		</section>
 
 		<!-- Video section -->
-		<section class="video">
+		<section class="video ">
 			<h2 class="video-title">How Homerun works</h2>
 			<img src="./img/main/video/come.jpg" alt="come join" class="vide-img" width="860">
 			<a href="#" class="video-link link">
